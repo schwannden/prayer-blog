@@ -10894,9 +10894,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-nextjs-starter-blog@workspace:.":
+"tailwind-nextjs-prayer-book@workspace:.":
   version: 0.0.0-use.local
-  resolution: "tailwind-nextjs-starter-blog@workspace:."
+  resolution: "tailwind-nextjs-prayer-book@workspace:."
   dependencies:
     "@headlessui/react": 1.7.19
     "@next/bundle-analyzer": 14.2.3
