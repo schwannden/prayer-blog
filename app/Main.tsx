@@ -20,8 +20,8 @@ export default function Home({ prayers }) {
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!prayers.length && 'No posts found.'}
-          {prayers.slice(0, MAX_DISPLAY).map((post) => {
-            const { slug, date, title, summary, tags } = post
+          {prayers.slice(0, MAX_DISPLAY).map((prayer) => {
+            const { slug, date, title, summary, tags } = prayer
             return (
               <li key={slug} className="py-12">
                 <article>

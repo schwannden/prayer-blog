@@ -4,7 +4,7 @@ import { slug } from 'github-slugger'
 import tagData from 'app/tag-data.json'
 import { genPageMetadata } from 'app/seo'
 
-export const metadata = genPageMetadata({ title: '標籤', description: 'Things I pray about' })
+export const metadata = genPageMetadata({ title: '標籤', description: '禱告標籤' })
 
 export default async function Page() {
   const tagCounts = tagData as Record<string, number>
@@ -27,7 +27,7 @@ export default async function Page() {
                 <Link
                   href={`/tags/${slug(t)}`}
                   className="-ml-2 text-sm font-semibold uppercase text-gray-600 dark:text-gray-300"
-                  aria-label={`View posts tagged ${t}`}
+                  aria-label={`View prayers tagged ${t}`}
                 >
                   {` (${tagCounts[t]})`}
                 </Link>
