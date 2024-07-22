@@ -3,7 +3,7 @@ const siteMetadata = {
   title: '禱告書',
   author: 'Schwannden Kuo',
   headerTitle: '禱告書',
-  description: '禱告不是一件事情，是一種生活方式。',
+  description: '禱告不是一件事情，是生而為人的一種內在本質。',
   language: 'zh-tw',
   theme: 'system', // system, dark or light
   siteUrl: 'http://prayer.schwannden.com/',
@@ -39,11 +39,7 @@ const siteMetadata = {
     //   googleAnalyticsId: '', // e.g. G-XXXXXXX
     // },
   },
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
-  },
+  newsletter: {},
   comments: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
