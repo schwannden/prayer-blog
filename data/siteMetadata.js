@@ -12,7 +12,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@schwannden',
   email: 'schwannden@gmail.com',
-  github: 'https://github.com/schwannden',
+  github: 'https://github.com/schwannden/prayer-blog',
   linkedin: 'https://www.linkedin.com/in/schwannden/',
   locale: 'zh-TW',
   analytics: {
