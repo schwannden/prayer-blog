@@ -6,7 +6,7 @@ const siteMetadata = {
   description: '禱告不是一件事情，是一種生活方式。',
   language: 'zh-tw',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://schwannden.github.io/prayer-blog/',
+  siteUrl: 'http://prayer.schwannden.com/',
   siteRepo: 'https://github.com/schwannden/prayer-blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',

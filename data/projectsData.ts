@@ -15,7 +15,7 @@ const projectsData: Project[] = [
   {
     title: '為妻子禱告',
     description: `為你的妻子禱告`,
-    imgSrc: '/static/images/projects/children.png',
+    imgSrc: '/static/images/projects/wife.png',
     href: '/tags/妻子',
   },
 ]
