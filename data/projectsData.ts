@@ -24,6 +24,12 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/projects/wife.png',
     href: '/tags/wife',
   },
+  {
+    title: '為丈夫禱告',
+    description: `為你的丈夫禱告`,
+    imgSrc: '/static/images/projects/husband.png',
+    href: '/tags/husband',
+  },
 ]
 
 export default projectsData
