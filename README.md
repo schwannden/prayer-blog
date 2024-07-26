@@ -6,7 +6,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/schwannden/prayer-blog?style=social)](https://GitHub.com/schwannden/prayer-blog/network/)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&link=https://github.com/sponsors/schwannden)](https://github.com/sponsors/schwannden)
 
-
 The project is created from this [template](https://github.com/timlrx/tailwind-nextjs-starter-blog).
 
 ## Motivation
