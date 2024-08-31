@@ -168,8 +168,8 @@ A [`pages.yml`](.github/workflows/pages.yml) workflow is already provided. Simpl
 
 ## Support
 
-Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/timlrx).
+Using the template? Support this effort by giving a star on GitHub, sharing with friends and family.
 
 ## Licence
 
-[MIT](https://github.com/timlrx/tailwind-nextjs-starter-blog/blob/main/LICENSE)
+[MIT](https://github.com/schwannden/prayer-blog/blob/main/LICENSE)
