@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/schwannden/prayer-blog/compare/v1.1.0...v1.1.1) (2024-12-17)
+
+
+### Bug Fixes
+
+* typo in site metadata ([9df3e57](https://github.com/schwannden/prayer-blog/commit/9df3e57033c0f8edb906737ae64bc95af57f35a8))
+
 ## [1.1.0](https://github.com/schwannden/prayer-blog/compare/v1.0.0...v1.1.0) (2024-12-17)
 
 
