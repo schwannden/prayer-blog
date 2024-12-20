@@ -65,7 +65,8 @@ npx degit 'schwannden/prayer-blog'
 ## Installation
 
 ```bash
-yarn
+npm install
+npm run prepare
 ```
 
 Please note, that if you are using Windows, you may need to run:
@@ -79,7 +80,7 @@ $env:PWD = $(Get-Location).Path
 First, run the development server:
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
