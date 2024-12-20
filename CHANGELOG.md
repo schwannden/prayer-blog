@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.2](https://github.com/schwannden/prayer-blog/compare/v1.1.1...v1.1.2) (2024-12-20)
+
+
+### Build Related
+
+* **deps:** bump @grpc/grpc-js in the npm_and_yarn group ([#40](https://github.com/schwannden/prayer-blog/issues/40)) ([e52534d](https://github.com/schwannden/prayer-blog/commit/e52534d260a6bdaaf86273834d77148efff52656))
+* update node to 22 ([#42](https://github.com/schwannden/prayer-blog/issues/42)) ([818dc7c](https://github.com/schwannden/prayer-blog/commit/818dc7c95060d48b253483ab2379a9fe4809d51a))
+* use npm instead ([#39](https://github.com/schwannden/prayer-blog/issues/39)) ([271c932](https://github.com/schwannden/prayer-blog/commit/271c9321d6169167380e2d259eb711d3758109b2))
+
 ## [1.1.1](https://github.com/schwannden/prayer-blog/compare/v1.1.0...v1.1.1) (2024-12-17)
 
 ### Bug Fixes
