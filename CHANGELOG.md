@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.3](https://github.com/schwannden/prayer-blog/compare/v1.1.2...v1.1.3) (2025-01-18)
+
+
+### Build Related
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([#68](https://github.com/schwannden/prayer-blog/issues/68)) ([67fe0e0](https://github.com/schwannden/prayer-blog/commit/67fe0e0d9f771939e0dd2ad30da245f57a529d32))
+* **deps-dev:** bump @typescript-eslint/parser from 8.18.0 to 8.20.0 ([#67](https://github.com/schwannden/prayer-blog/issues/67)) ([d02459e](https://github.com/schwannden/prayer-blog/commit/d02459e7ebfcf55eae567a64c02588f2fde85522))
+* **deps-dev:** bump eslint-config-next from 15.1.0 to 15.1.4 ([#63](https://github.com/schwannden/prayer-blog/issues/63)) ([24bc42b](https://github.com/schwannden/prayer-blog/commit/24bc42b5adbf68f75f3b7ff53333780fd0074e72))
+* **deps-dev:** bump lint-staged from 15.2.11 to 15.3.0 ([#58](https://github.com/schwannden/prayer-blog/issues/58)) ([39ebfc9](https://github.com/schwannden/prayer-blog/commit/39ebfc9f6ba874decd58eaf63b2b04d1508567bc))
+* **deps:** bump @next/bundle-analyzer from 15.1.0 to 15.1.4 ([#64](https://github.com/schwannden/prayer-blog/issues/64)) ([cdac25d](https://github.com/schwannden/prayer-blog/commit/cdac25d5ac1875447b332c34be5ccd0bbf92e952))
+* **deps:** bump esbuild from 0.24.0 to 0.24.2 ([#52](https://github.com/schwannden/prayer-blog/issues/52)) ([b767359](https://github.com/schwannden/prayer-blog/commit/b7673594c0a1aac5f49fc739d2e750eb59f96d1b))
+* **deps:** bump globals from 15.13.0 to 15.14.0 ([#49](https://github.com/schwannden/prayer-blog/issues/49)) ([6f6863f](https://github.com/schwannden/prayer-blog/commit/6f6863f03533b519a0f755feb49fcfe687c02e88))
+* **deps:** bump image-size from 1.1.1 to 1.2.0 ([#50](https://github.com/schwannden/prayer-blog/issues/50)) ([08aedbf](https://github.com/schwannden/prayer-blog/commit/08aedbfcc343d75f70aaaa6078e9d920e7972edc))
+* **deps:** bump tailwindcss from 3.4.16 to 3.4.17 ([#46](https://github.com/schwannden/prayer-blog/issues/46)) ([3afbd3e](https://github.com/schwannden/prayer-blog/commit/3afbd3eb9076b1c1e80ef9a545b30115bfecfba2))
+* **deps:** bump the npm_and_yarn group with 2 updates ([#66](https://github.com/schwannden/prayer-blog/issues/66)) ([a50fd4c](https://github.com/schwannden/prayer-blog/commit/a50fd4cf47184d349453a20b0edf6874530e59be))
+
+
+### Documentation
+
+* update readme and contributor guide ([0a54306](https://github.com/schwannden/prayer-blog/commit/0a54306360acbed3e7959993b4b248f1b11ff210))
+
 ## [1.1.2](https://github.com/schwannden/prayer-blog/compare/v1.1.1...v1.1.2) (2024-12-20)
 
 
