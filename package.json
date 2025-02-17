@@ -15,7 +15,7 @@
     "@grpc/grpc-js": "^1.12.5",
     "@headlessui/react": "2.2.0",
     "@next/bundle-analyzer": "15.1.4",
-    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.20",
     "braces": "^3.0.3",
