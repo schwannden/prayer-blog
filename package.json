@@ -19,7 +19,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.20",
     "braces": "^3.0.3",
-    "contentlayer2": "0.5.3",
+    "contentlayer2": "0.5.4",
     "cross-spawn": "^7.0.6",
     "esbuild": "0.25.0",
     "github-slugger": "^2.0.0",
