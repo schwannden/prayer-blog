@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.1.4](https://github.com/schwannden/prayer-blog/compare/v1.1.3...v1.1.4) (2025-02-18)
+
+
+### Build Related
+
+* **deps-dev:** bump @types/braces from 3.0.4 to 3.0.5 ([#75](https://github.com/schwannden/prayer-blog/issues/75)) ([51e90fb](https://github.com/schwannden/prayer-blog/commit/51e90fb35dbb035e5d186766b860c72913117b2c))
+* **deps-dev:** bump @types/node from 22.10.2 to 22.13.1 ([#86](https://github.com/schwannden/prayer-blog/issues/86)) ([8821c26](https://github.com/schwannden/prayer-blog/commit/8821c2674662383c94108c30a00eb8a18d5409d1))
+* **deps-dev:** bump @types/ws from 8.5.13 to 8.5.14 ([#93](https://github.com/schwannden/prayer-blog/issues/93)) ([ec5a80a](https://github.com/schwannden/prayer-blog/commit/ec5a80a3e8739b9a59a7bd1c47b47da64185969b))
+* **deps-dev:** bump @typescript-eslint/parser from 8.20.0 to 8.24.1 ([#92](https://github.com/schwannden/prayer-blog/issues/92)) ([85d026c](https://github.com/schwannden/prayer-blog/commit/85d026cf5cc852fb273f47787db2ba1c68eac56b))
+* **deps-dev:** bump eslint from 9.17.0 to 9.20.0 ([#85](https://github.com/schwannden/prayer-blog/issues/85)) ([f70123c](https://github.com/schwannden/prayer-blog/commit/f70123c9d8b810c0b70e493d579567e079021039))
+* **deps-dev:** bump eslint from 9.20.0 to 9.20.1 ([#88](https://github.com/schwannden/prayer-blog/issues/88)) ([1c19600](https://github.com/schwannden/prayer-blog/commit/1c19600708226ba73dacd125c2dfc91c246c39d9))
+* **deps-dev:** bump eslint-config-next from 15.1.4 to 15.1.7 ([#98](https://github.com/schwannden/prayer-blog/issues/98)) ([6404bf5](https://github.com/schwannden/prayer-blog/commit/6404bf57fc6f7b2a3e7eb721e32517c5e94d607d))
+* **deps-dev:** bump eslint-config-prettier from 9.1.0 to 10.0.1 ([#71](https://github.com/schwannden/prayer-blog/issues/71)) ([56e317f](https://github.com/schwannden/prayer-blog/commit/56e317f86394278e7210f3c063e78474f5e6662f))
+* **deps-dev:** bump eslint-plugin-prettier from 5.2.1 to 5.2.3 ([#78](https://github.com/schwannden/prayer-blog/issues/78)) ([896b095](https://github.com/schwannden/prayer-blog/commit/896b095d4a7d77e46827c3ad883be7adcddd3148))
+* **deps-dev:** bump lint-staged from 15.3.0 to 15.4.3 ([#82](https://github.com/schwannden/prayer-blog/issues/82)) ([a1a75d5](https://github.com/schwannden/prayer-blog/commit/a1a75d52f8466bca1254376196866ad2f88cafe0))
+* **deps-dev:** bump prettier from 3.4.2 to 3.5.1 ([#91](https://github.com/schwannden/prayer-blog/issues/91)) ([83685f6](https://github.com/schwannden/prayer-blog/commit/83685f64693e04d78e246bc01095a59906bf5357))
+* **deps-dev:** bump prettier-plugin-tailwindcss from 0.6.9 to 0.6.11 ([#83](https://github.com/schwannden/prayer-blog/issues/83)) ([866c07f](https://github.com/schwannden/prayer-blog/commit/866c07ff017904bc2798ea90e108f416216ef415))
+* **deps-dev:** bump typescript from 5.7.2 to 5.7.3 ([#90](https://github.com/schwannden/prayer-blog/issues/90)) ([9529e51](https://github.com/schwannden/prayer-blog/commit/9529e51816e2e00318663480c7b086149bc3cad1))
+* **deps:** bump @tailwindcss/forms from 0.5.9 to 0.5.10 ([#70](https://github.com/schwannden/prayer-blog/issues/70)) ([2ae3466](https://github.com/schwannden/prayer-blog/commit/2ae3466cb5cd6e4ae10af5dca53045bc28559ad2))
+* **deps:** bump @tailwindcss/typography from 0.5.15 to 0.5.16 ([#72](https://github.com/schwannden/prayer-blog/issues/72)) ([27d641b](https://github.com/schwannden/prayer-blog/commit/27d641b8c9c0baaafca3b483a3b7b914f62612f7))
+* **deps:** bump esbuild in the npm_and_yarn group ([#87](https://github.com/schwannden/prayer-blog/issues/87)) ([377bf26](https://github.com/schwannden/prayer-blog/commit/377bf26dc06690c7a1c43ec5d23f56b01ffcfc7b))
+* **deps:** bump globals from 15.14.0 to 15.15.0 ([#97](https://github.com/schwannden/prayer-blog/issues/97)) ([4c33506](https://github.com/schwannden/prayer-blog/commit/4c33506b3814a15d670c3cc6b7910d9efa340064))
+* **deps:** bump next from 15.1.5 to 15.1.7 ([#96](https://github.com/schwannden/prayer-blog/issues/96)) ([a3d531f](https://github.com/schwannden/prayer-blog/commit/a3d531f1b8aeb92a3858ffc31b5017d20993643f))
+* **deps:** bump next-contentlayer2 from 0.5.3 to 0.5.4 ([#95](https://github.com/schwannden/prayer-blog/issues/95)) ([cc83f44](https://github.com/schwannden/prayer-blog/commit/cc83f44fdad1fb7db46dde042f5a838a48e29fba))
+* **deps:** bump postcss from 8.4.49 to 8.5.1 ([#73](https://github.com/schwannden/prayer-blog/issues/73)) ([aa230db](https://github.com/schwannden/prayer-blog/commit/aa230dbffc6ebab8c40a0809947325c15317ebeb))
+* **deps:** bump remark-gfm from 4.0.0 to 4.0.1 ([#99](https://github.com/schwannden/prayer-blog/issues/99)) ([cbfa4b3](https://github.com/schwannden/prayer-blog/commit/cbfa4b3ce91bbffb4a405d3f5843b80c46819ae4))
+* **deps:** fix dependency conflict ([434bf4c](https://github.com/schwannden/prayer-blog/commit/434bf4c071f0c709b71a99db849c11329e7d51cb))
+
 ## [1.1.3](https://github.com/schwannden/prayer-blog/compare/v1.1.2...v1.1.3) (2025-01-18)
 
 
