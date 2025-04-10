@@ -2,7 +2,7 @@
 
 Welcome to the Prayer Blog project! We appreciate your interest in contributing. This guide outlines the process for contributing both as a developer and as a non-developer.
 
-Join us in the [Discord](https://discord.gg/SWRHyas2) to discuss the project.
+Join us in the [Discord](https://discord.gg/eFjTJgzxkH) to discuss the project.
 
 ---
 

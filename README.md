@@ -8,7 +8,7 @@
 
 The project is created from this [template](https://github.com/timlrx/tailwind-nextjs-starter-blog).
 
-Join us in the [Discord](https://discord.gg/SWRHyas2) to discuss the project.
+Join us in the [Discord](https://discord.gg/eFjTJgzxkH) to discuss the project.
 
 ## Motivation
 
