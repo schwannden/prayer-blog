@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.6](https://github.com/schwannden/prayer-blog/compare/v1.1.5...v1.1.6) (2025-04-10)
+
+
+### Chores
+
+* upgrade tailwind to 4 ([#138](https://github.com/schwannden/prayer-blog/issues/138)) ([6bc4e66](https://github.com/schwannden/prayer-blog/commit/6bc4e664c7338c98226c9365edf130ab8fc61aa1)), closes [#100](https://github.com/schwannden/prayer-blog/issues/100)
+
 ## [1.1.5](https://github.com/schwannden/prayer-blog/compare/v1.1.4...v1.1.5) (2025-04-10)
 
 
