@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.5](https://github.com/schwannden/prayer-blog/compare/v1.1.4...v1.1.5) (2025-04-10)
+
+
+### Build Related
+
+* **deps-dev:** bump @types/node from 22.13.1 to 22.14.0 ([#132](https://github.com/schwannden/prayer-blog/issues/132)) ([33e4fa2](https://github.com/schwannden/prayer-blog/commit/33e4fa21580a3ef31f869225c9aca62f06bcd216))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([#134](https://github.com/schwannden/prayer-blog/issues/134)) ([ea9308f](https://github.com/schwannden/prayer-blog/commit/ea9308f4b3fad27599211d0806816d6e6e440cae))
+* **deps-dev:** bump @typescript-eslint/parser from 8.24.1 to 8.29.1 ([#135](https://github.com/schwannden/prayer-blog/issues/135)) ([8ab694d](https://github.com/schwannden/prayer-blog/commit/8ab694d754f1dcfabd3825c4712b3d09fc6fcbb6))
+* **deps-dev:** bump eslint from 9.20.1 to 9.24.0 ([#130](https://github.com/schwannden/prayer-blog/issues/130)) ([169f62c](https://github.com/schwannden/prayer-blog/commit/169f62cf87bbe6b8e204ff5c990384c0687dff45))
+* **deps-dev:** bump prettier from 3.5.1 to 3.5.3 ([#114](https://github.com/schwannden/prayer-blog/issues/114)) ([09e7828](https://github.com/schwannden/prayer-blog/commit/09e782869604ba28b89f0190b1ec543515699bcd))
+* **deps:** bump @grpc/grpc-js from 1.12.5 to 1.13.2 ([#127](https://github.com/schwannden/prayer-blog/issues/127)) ([077f381](https://github.com/schwannden/prayer-blog/commit/077f38151971622e5fffcb6f85db60450e80c19e))
+* **deps:** bump @next/bundle-analyzer from 15.1.4 to 15.2.4 ([#129](https://github.com/schwannden/prayer-blog/issues/129)) ([d43ccd2](https://github.com/schwannden/prayer-blog/commit/d43ccd23671d6b8c528f1b6c65c03e3a26a0274b))
+* **deps:** bump pliny from 0.4.0 to 0.4.1 ([#106](https://github.com/schwannden/prayer-blog/issues/106)) ([3f797e2](https://github.com/schwannden/prayer-blog/commit/3f797e2cfa8fa319d77f3ebb0ecf9dcafca1f495))
+* **deps:** bump postcss from 8.5.1 to 8.5.3 ([#105](https://github.com/schwannden/prayer-blog/issues/105)) ([1a6c0aa](https://github.com/schwannden/prayer-blog/commit/1a6c0aa034ebd5f4c815fe09183e45f39bf37aae))
+* **deps:** bump the npm_and_yarn group with 2 updates ([#120](https://github.com/schwannden/prayer-blog/issues/120)) ([577f5e3](https://github.com/schwannden/prayer-blog/commit/577f5e30e9e7d8a2ded8164c999aef0d9e72183b))
+* **deps:** bump the npm_and_yarn group with 3 updates ([#136](https://github.com/schwannden/prayer-blog/issues/136)) ([8bf8930](https://github.com/schwannden/prayer-blog/commit/8bf8930a2ed3b0841615b6eb6af83d4565468a22))
+* **deps:** bump ws from 8.18.0 to 8.18.1 ([#107](https://github.com/schwannden/prayer-blog/issues/107)) ([22cf013](https://github.com/schwannden/prayer-blog/commit/22cf0137e73f9497ce16b3cdcc1ab29927b97db5))
+
 ## [1.1.4](https://github.com/schwannden/prayer-blog/compare/v1.1.3...v1.1.4) (2025-02-18)
 
 
