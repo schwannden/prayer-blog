@@ -1,9 +1,10 @@
-// tailwind.config.mjs
 import defaultTheme from 'tailwindcss/defaultTheme'
 import colors from 'tailwindcss/colors'
+import forms from '@tailwindcss/forms'
+import typography from '@tailwindcss/typography'
 
 /** @type {import("tailwindcss").Config} */
-export default {
+const config = {
   content: [
     './node_modules/pliny/**/*.js',
     './app/**/*.{js,ts,jsx,tsx}',
@@ -67,5 +68,7 @@ export default {
       }),
     },
   },
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+  plugins: [forms, typography],
 }
+
+export default config
