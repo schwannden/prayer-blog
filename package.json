@@ -21,7 +21,7 @@
     "braces": "^3.0.3",
     "contentlayer2": "0.5.4",
     "cross-spawn": "^7.0.6",
-    "esbuild": "0.25.0",
+    "esbuild": "0.25.2",
     "github-slugger": "^2.0.0",
     "globals": "^15.15.0",
     "gray-matter": "^4.0.3",
