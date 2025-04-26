@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.7](https://github.com/schwannden/prayer-blog/compare/v1.1.6...v1.1.7) (2025-04-26)
+
+
+### Chores
+
+* update domain ([747b364](https://github.com/schwannden/prayer-blog/commit/747b364ecd42e814924b8f9bccecb78bc8c7a3e2))
+
+
+### Documentation
+
+* update discord server ([#141](https://github.com/schwannden/prayer-blog/issues/141)) ([94caf4d](https://github.com/schwannden/prayer-blog/commit/94caf4d6c55210af144573355a46df754a6cd6da)), closes [#140](https://github.com/schwannden/prayer-blog/issues/140)
+
 ## [1.1.6](https://github.com/schwannden/prayer-blog/compare/v1.1.5...v1.1.6) (2025-04-10)
 
 
