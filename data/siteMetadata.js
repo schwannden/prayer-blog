@@ -6,7 +6,7 @@ const siteMetadata = {
   description: '禱告不是一件事情，是生而為人的一種內在本質。',
   language: 'zh-tw',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://prayer.schwannden.com/',
+  siteUrl: 'https://prayer.fruitful-tools.com',
   siteRepo: 'https://github.com/schwannden/prayer-blog',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',

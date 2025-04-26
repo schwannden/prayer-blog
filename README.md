@@ -27,8 +27,8 @@ At the beginning I simply wish to find a daily prayer website that is awsthetic 
 
 ## Sample prayers
 
-- [Pray for your children](https://prayer.schwannden.com/prayer/for-children/day1)
-- [Pray for your wife](https://prayer.schwannden.com/prayer/for-wife/day1)
+- [Pray for your children](https://prayer.fruitful-tools.com/prayer/for-children/day1)
+- [Pray for your wife](https://prayer.fruitful-tools.com/prayer/for-wife/day1)
 
 ## Support
 
