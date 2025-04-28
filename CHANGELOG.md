@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.8](https://github.com/schwannden/prayer-blog/compare/v1.1.7...v1.1.8) (2025-04-28)
+
+
+### Build Related
+
+* **deps-dev:** bump @types/ws from 8.5.14 to 8.18.1 ([#147](https://github.com/schwannden/prayer-blog/issues/147)) ([e0040a0](https://github.com/schwannden/prayer-blog/commit/e0040a0c14913a8ba935cf23f939a534c7eb29e9))
+* **deps-dev:** bump eslint-config-next from 15.1.7 to 15.3.1 ([#152](https://github.com/schwannden/prayer-blog/issues/152)) ([8dc9f6f](https://github.com/schwannden/prayer-blog/commit/8dc9f6f98157c389355f8527f5aee06c23b8cf74))
+* **deps-dev:** bump eslint-plugin-prettier from 5.2.3 to 5.2.6 ([#145](https://github.com/schwannden/prayer-blog/issues/145)) ([c3f62d8](https://github.com/schwannden/prayer-blog/commit/c3f62d87a8e5e3dd94a8454ea1c40cb9bfa4a0d7))
+* **deps:** bump @next/bundle-analyzer from 15.2.4 to 15.3.1 ([#153](https://github.com/schwannden/prayer-blog/issues/153)) ([1e0f8b9](https://github.com/schwannden/prayer-blog/commit/1e0f8b97ea4a370c2c204229eeeb824e15176b8f))
+* **deps:** bump contentlayer2 from 0.5.4 to 0.5.7 ([77f2bd6](https://github.com/schwannden/prayer-blog/commit/77f2bd678939d2d805900e226aa524c2cdb083ee))
+* **deps:** bump esbuild from 0.25.0 to 0.25.2 ([#143](https://github.com/schwannden/prayer-blog/issues/143)) ([0f3f8a8](https://github.com/schwannden/prayer-blog/commit/0f3f8a87892e53e0e02f916fa9089441609db842))
+* **deps:** bump rehype-citation from 2.2.2 to 2.3.1 ([#144](https://github.com/schwannden/prayer-blog/issues/144)) ([83f63b3](https://github.com/schwannden/prayer-blog/commit/83f63b37de9a0fe29451591c95bc7050441552e8))
+* **deps:** bump rehype-prism-plus from 2.0.0 to 2.0.1 ([#149](https://github.com/schwannden/prayer-blog/issues/149)) ([d28b4c4](https://github.com/schwannden/prayer-blog/commit/d28b4c4d5c3f80434fd8cc69caf6952bf9b0c71c))
+
 ## [1.1.7](https://github.com/schwannden/prayer-blog/compare/v1.1.6...v1.1.7) (2025-04-26)
 
 
