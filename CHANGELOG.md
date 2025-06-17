@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.1.9](https://github.com/schwannden/prayer-blog/compare/v1.1.8...v1.1.9) (2025-06-17)
+
+
+### Build Related
+
+* **deps-dev:** bump @types/node from 22.14.0 to 24.0.3 ([#189](https://github.com/schwannden/prayer-blog/issues/189)) ([c9b2a19](https://github.com/schwannden/prayer-blog/commit/c9b2a19a4a52393ab89c8b675c052d5ad59a18bb))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([#188](https://github.com/schwannden/prayer-blog/issues/188)) ([ef0d328](https://github.com/schwannden/prayer-blog/commit/ef0d3289e1691914e59f59a0ed3a7e69a78ff3fc))
+* **deps-dev:** bump lint-staged from 15.4.3 to 16.1.2 ([#187](https://github.com/schwannden/prayer-blog/issues/187)) ([32cccd7](https://github.com/schwannden/prayer-blog/commit/32cccd77b83129990b9df96f9f7388bab3b16ead))
+* **deps-dev:** bump typescript from 5.7.3 to 5.8.3 ([#163](https://github.com/schwannden/prayer-blog/issues/163)) ([43d9942](https://github.com/schwannden/prayer-blog/commit/43d994294c43137de1fdbaf87f9b36bb27f073bc))
+* **deps:** bump @grpc/grpc-js from 1.13.2 to 1.13.4 ([#178](https://github.com/schwannden/prayer-blog/issues/178)) ([4968dd7](https://github.com/schwannden/prayer-blog/commit/4968dd7dd3a92ca4cb6ff3ce1dfdd2fc26ea3d97))
+* **deps:** bump @tailwindcss/postcss from 4.1.3 to 4.1.10 ([#190](https://github.com/schwannden/prayer-blog/issues/190)) ([68d3f98](https://github.com/schwannden/prayer-blog/commit/68d3f9861561275faa91375e145edf7df3c9a183))
+* **deps:** bump globals from 15.15.0 to 16.2.0 ([#179](https://github.com/schwannden/prayer-blog/issues/179)) ([fcc25b1](https://github.com/schwannden/prayer-blog/commit/fcc25b1d8b1d3fc84a5d60ba86c46d95f94670b5))
+* **deps:** bump image-size from 1.2.1 to 2.0.2 ([#160](https://github.com/schwannden/prayer-blog/issues/160)) ([3083288](https://github.com/schwannden/prayer-blog/commit/3083288d95040abf24136f9ad729a02a13e7445a))
+* **deps:** bump next from 15.3.0 to 15.3.3 ([#182](https://github.com/schwannden/prayer-blog/issues/182)) ([6cdbed6](https://github.com/schwannden/prayer-blog/commit/6cdbed61db5e92c4765d9181d59435398ae5085e))
+* **deps:** bump next-themes from 0.4.4 to 0.4.6 ([#159](https://github.com/schwannden/prayer-blog/issues/159)) ([3204e69](https://github.com/schwannden/prayer-blog/commit/3204e69c401680807a33afe5ad027cb1e3cbe5d8))
+
 ## [1.1.8](https://github.com/schwannden/prayer-blog/compare/v1.1.7...v1.1.8) (2025-04-28)
 
 
