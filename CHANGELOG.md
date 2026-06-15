@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.1.10](https://github.com/schwannden/prayer-blog/compare/v1.1.9...v1.1.10) (2026-06-15)
+
+
+### Build Related
+
+* **deps-dev:** bump prettier-plugin-tailwindcss from 0.6.11 to 0.7.1 ([#236](https://github.com/schwannden/prayer-blog/issues/236)) ([9705fa8](https://github.com/schwannden/prayer-blog/commit/9705fa857e1b748e36e1a32044b20865c7392b42))
+* **deps:** bump @next/bundle-analyzer from 15.3.1 to 16.0.0 ([#242](https://github.com/schwannden/prayer-blog/issues/242)) ([fe716e2](https://github.com/schwannden/prayer-blog/commit/fe716e2bb16a1f1b1633114587ddbcc57517c200))
+* **deps:** bump contentlayer2 from 0.5.7 to 0.5.8 ([#195](https://github.com/schwannden/prayer-blog/issues/195)) ([c8a7cf0](https://github.com/schwannden/prayer-blog/commit/c8a7cf0750514bce2eb54e860cb520c3ff755767))
+* **deps:** bump esbuild from 0.25.2 to 0.25.11 ([#239](https://github.com/schwannden/prayer-blog/issues/239)) ([f0d1f8c](https://github.com/schwannden/prayer-blog/commit/f0d1f8c8cfd52fa649c95c7fdbed840c7d5436ea))
+* **deps:** bump postcss from 8.5.3 to 8.5.6 ([#198](https://github.com/schwannden/prayer-blog/issues/198)) ([efa7a01](https://github.com/schwannden/prayer-blog/commit/efa7a010a9801c7f357e552402d62e0bd3ff6272))
+* **deps:** bump remark-github-blockquote-alert from 1.3.0 to 2.0.0 ([#211](https://github.com/schwannden/prayer-blog/issues/211)) ([338588d](https://github.com/schwannden/prayer-blog/commit/338588d513124347cb295e61356952144eef5753))
+* **deps:** bump the npm_and_yarn group across 1 directory with 14 updates ([#244](https://github.com/schwannden/prayer-blog/issues/244)) ([b660981](https://github.com/schwannden/prayer-blog/commit/b6609812a8727dc3055616d461a1c61b7e9bac0f))
+* **deps:** bump the npm_and_yarn group across 1 directory with 8 updates ([#246](https://github.com/schwannden/prayer-blog/issues/246)) ([8f9a64c](https://github.com/schwannden/prayer-blog/commit/8f9a64c1689dafb4fe380190f6085783ba85d393))
+* **deps:** bump the npm_and_yarn group with 2 updates ([#192](https://github.com/schwannden/prayer-blog/issues/192)) ([bca3362](https://github.com/schwannden/prayer-blog/commit/bca3362df1dbe3d1bf1f3f946c430f83f498b222))
+* **deps:** upgrade to Next 16 and React 19 ([#245](https://github.com/schwannden/prayer-blog/issues/245)) ([b2f5992](https://github.com/schwannden/prayer-blog/commit/b2f59925f58a66d9e141a791a838ef14219422cb))
+
 ## [1.1.9](https://github.com/schwannden/prayer-blog/compare/v1.1.8...v1.1.9) (2025-06-17)
 
 
