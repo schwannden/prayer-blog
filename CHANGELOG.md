@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.11](https://github.com/schwannden/prayer-blog/compare/v1.1.10...v1.1.11) (2026-06-16)
+
+
+### Build Related
+
+* **deps-dev:** bump @types/micromatch from 4.0.9 to 4.0.10 ([#253](https://github.com/schwannden/prayer-blog/issues/253)) ([8840ed6](https://github.com/schwannden/prayer-blog/commit/8840ed6dd71a2680e259d3ab5ebf4f83364064fd))
+* **deps-dev:** bump cross-env from 7.0.3 to 10.1.0 ([#255](https://github.com/schwannden/prayer-blog/issues/255)) ([062d7ad](https://github.com/schwannden/prayer-blog/commit/062d7ad0e1589d5dd008e9eb511a162a3cd0efb2))
+* **deps-dev:** bump eslint-config-prettier from 10.1.2 to 10.1.8 ([#248](https://github.com/schwannden/prayer-blog/issues/248)) ([fd4d99b](https://github.com/schwannden/prayer-blog/commit/fd4d99b76a7de6955968d828a6bb4bb376bd629c))
+* **deps-dev:** bump eslint-plugin-prettier from 5.2.6 to 5.5.6 ([#256](https://github.com/schwannden/prayer-blog/issues/256)) ([cabefb3](https://github.com/schwannden/prayer-blog/commit/cabefb3ba21733a5f83fbf0973d6df14dbfd30b2))
+* **deps-dev:** bump prettier-plugin-tailwindcss from 0.7.1 to 0.8.0 ([#249](https://github.com/schwannden/prayer-blog/issues/249)) ([4f1413b](https://github.com/schwannden/prayer-blog/commit/4f1413b2eb96d6ffdb2378eda88944e01a5d90d6))
+* **deps:** bump @tailwindcss/typography from 0.5.16 to 0.5.20 ([#254](https://github.com/schwannden/prayer-blog/issues/254)) ([0c0e1f1](https://github.com/schwannden/prayer-blog/commit/0c0e1f16a259fd224d739614a05542d0a6eae524))
+* **deps:** bump rehype-prism-plus from 2.0.1 to 2.0.2 ([#251](https://github.com/schwannden/prayer-blog/issues/251)) ([0cbc6d7](https://github.com/schwannden/prayer-blog/commit/0cbc6d7bfec9ef406e08c2b8aefcd453465aa61c))
+* **deps:** bump remark-github-blockquote-alert from 2.0.0 to 2.1.0 ([#252](https://github.com/schwannden/prayer-blog/issues/252)) ([2ea017b](https://github.com/schwannden/prayer-blog/commit/2ea017b4d325d1eecb30842789e5de0b5f275ea4))
+* **deps:** bump unist-util-visit from 5.0.0 to 5.1.0 ([#250](https://github.com/schwannden/prayer-blog/issues/250)) ([c906038](https://github.com/schwannden/prayer-blog/commit/c90603897b4b435e8ba201dfd53d46944e2371fb))
+* **deps:** pin ESLint to v9 until Next.js lint stack supports v10 ([#259](https://github.com/schwannden/prayer-blog/issues/259)) ([a9431b1](https://github.com/schwannden/prayer-blog/commit/a9431b114ba2b31e6356fa1917efd89a075588f1))
+* **deps:** upgrade Node to 24 and pin via volta/nvm/engines ([#258](https://github.com/schwannden/prayer-blog/issues/258)) ([2a1a7e7](https://github.com/schwannden/prayer-blog/commit/2a1a7e782c981be27ea1d3437a4349e373258b5d))
+
 ## [1.1.10](https://github.com/schwannden/prayer-blog/compare/v1.1.9...v1.1.10) (2026-06-15)
 
 
