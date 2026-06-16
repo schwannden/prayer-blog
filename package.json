@@ -53,7 +53,7 @@
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
     "@types/braces": "^3",
-    "@types/mdx": "^2.0.13",
+    "@types/mdx": "^2.0.14",
     "@types/micromatch": "^4",
     "@types/node": "^24.0.3",
     "@types/react": "^19.2.17",
