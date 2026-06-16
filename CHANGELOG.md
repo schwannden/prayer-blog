@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/schwannden/prayer-blog/compare/v1.1.11...v1.2.0) (2026-06-16)
+
+
+### Features
+
+* **pwa:** make site installable and work offline ([#274](https://github.com/schwannden/prayer-blog/issues/274)) ([2856713](https://github.com/schwannden/prayer-blog/commit/2856713dd3c25354a9f3a5bd277bfb4b27814d35))
+
 ## [1.1.11](https://github.com/schwannden/prayer-blog/compare/v1.1.10...v1.1.11) (2026-06-16)
 
 
