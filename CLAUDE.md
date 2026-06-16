@@ -25,7 +25,7 @@ To reproduce the deployed static build locally, set the export env vars CI uses:
 EXPORT=1 UNOPTIMIZED=1 BASE_PATH="" npm run build   # output lands in ./out
 ```
 
-Node is pinned to 22.12.0 via Volta; CI builds against Node 20 and 22.
+Node is pinned to 24.16.0 via Volta and `.nvmrc` (for nvm users), and enforced via the `engines` field (`node >=24`); CI builds against Node 24.
 
 ## Architecture
 
