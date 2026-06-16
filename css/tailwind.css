@@ -67,3 +67,13 @@ input:-webkit-autofill:focus {
   display: inline-block;
   vertical-align: middle;
 }
+
+/* When installed as a PWA, keep content clear of the notch / home indicator.
+   Left/right are left to the existing layout padding to avoid clobbering the
+   scrollbar-gutter compensation on <body>. */
+@media (display-mode: standalone) {
+  body {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}

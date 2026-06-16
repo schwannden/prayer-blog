@@ -10,7 +10,7 @@ import SectionContainer from '@/components/SectionContainer'
 import Footer from '@/components/Footer'
 import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
-import { Metadata } from 'next'
+import { Metadata, Viewport } from 'next'
 
 const space_grotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -56,6 +56,32 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     images: [siteMetadata.socialBanner],
   },
+  // `manifest` is auto-injected by the app/manifest.ts convention (basePath-aware).
+  // These icon paths are auto basePath-prefixed by Next.
+  icons: {
+    icon: [
+      { url: '/static/favicons/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/static/favicons/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/static/favicons/favicon.ico', rel: 'shortcut icon' },
+    ],
+    apple: '/static/favicons/apple-touch-icon.png',
+  },
+  appleWebApp: {
+    capable: true,
+    title: siteMetadata.title,
+    statusBarStyle: 'default',
+  },
+}
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#fff' },
+    { media: '(prefers-color-scheme: dark)', color: '#000' },
+  ],
+  width: 'device-width',
+  initialScale: 1,
+  // Let standalone content extend under the notch; CSS uses safe-area insets.
+  viewportFit: 'cover',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -67,32 +93,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${space_grotesk.variable} scroll-smooth`}
       suppressHydrationWarning
     >
-      <link
-        rel="apple-touch-icon"
-        sizes="76x76"
-        href={`${basePath}/static/favicons/apple-touch-icon.png`}
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href={`${basePath}/static/favicons/favicon-32x32.png`}
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href={`${basePath}/static/favicons/favicon-16x16.png`}
-      />
-      <link rel="manifest" href={`${basePath}/static/favicons/site.webmanifest`} />
-      <link
-        rel="mask-icon"
-        href={`${basePath}/static/favicons/safari-pinned-tab.svg`}
-        color="#5bbad5"
-      />
-      <meta name="msapplication-TileColor" content="#000000" />
-      <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
-      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
+      {/* Next emits the standardized `mobile-web-app-capable`; older iOS only honors the
+          Apple-prefixed tag for standalone mode + startup images, so emit it explicitly. */}
+      <meta name="apple-mobile-web-app-capable" content="yes" />
       <link rel="alternate" type="application/rss+xml" href={`${basePath}/feed.xml`} />
       <body className="bg-white pl-[calc(100vw-100%)] text-black antialiased dark:bg-gray-950 dark:text-white">
         <ThemeProviders>

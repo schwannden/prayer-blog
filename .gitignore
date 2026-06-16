@@ -29,6 +29,10 @@ next-env.d.ts
 # contentlayer onSuccess artifact (tag counts); regenerated on every build
 /app/tag-data.json
 
+# Serwist service worker; generated on every build from app/sw.ts
+/public/sw.js
+/public/sw.js.map
+
 # misc
 .DS_Store
 
