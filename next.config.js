@@ -1,7 +1,23 @@
+const { spawnSync } = require('node:child_process')
+const crypto = require('node:crypto')
 const { withContentlayer } = require('next-contentlayer2')
+const withSerwistInit = require('@serwist/next').default
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
+})
+
+// Used as the cache-busting revision for the precached offline fallback page.
+const revision =
+  spawnSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf-8' }).stdout?.trim() ||
+  crypto.randomUUID()
+
+const withSerwist = withSerwistInit({
+  swSrc: 'app/sw.ts',
+  swDest: 'public/sw.js',
+  // Avoid the service worker caching dev assets and masking changes.
+  disable: process.env.NODE_ENV === 'development',
+  additionalPrecacheEntries: [{ url: `${process.env.BASE_PATH || ''}/offline`, revision }],
 })
 
 // You might need to insert additional domains in script-src if you are using external services
@@ -13,6 +29,8 @@ const ContentSecurityPolicy = `
   media-src *.s3.amazonaws.com;
   connect-src * www.google-analytics.com www.googletagmanager.com;
   font-src 'self';
+  worker-src 'self';
+  manifest-src 'self';
   frame-src giscus.app
 `
 
@@ -62,7 +80,7 @@ const unoptimized = process.env.UNOPTIMIZED ? true : undefined
  * @type {import('next/dist/next-server/server/config').NextConfig}
  **/
 module.exports = () => {
-  const plugins = [withContentlayer, withBundleAnalyzer]
+  const plugins = [withContentlayer, withBundleAnalyzer, withSerwist]
   return plugins.reduce((acc, next) => next(acc), {
     output,
     basePath,
