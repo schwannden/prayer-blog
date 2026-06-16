@@ -5,3 +5,13 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
+    ignore:
+      # ESLint 10 (released 2026-02) is not yet supported by the Next.js lint
+      # stack: eslint-config-next still bundles eslint-plugin-react /
+      # eslint-plugin-import / eslint-plugin-jsx-a11y, which cap their ESLint
+      # peer dependency at ^9. Upgrading crashes `npm run lint` (ESLint 10
+      # removed context.getFilename() and other APIs those plugins rely on).
+      # Tracking: https://github.com/vercel/next.js/issues/91710
+      # Remove this ignore once a v10-compatible eslint-config-next ships.
+      - dependency-name: "eslint"
+        update-types: ["version-update:semver-major"]
