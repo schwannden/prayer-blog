@@ -23,7 +23,7 @@
     "cross-spawn": "^7.0.6",
     "esbuild": "0.28.1",
     "github-slugger": "^2.0.0",
-    "globals": "^16.2.0",
+    "globals": "^17.6.0",
     "gray-matter": "^4.0.3",
     "hast-util-from-html-isomorphic": "^2.0.0",
     "image-size": "2.0.2",
